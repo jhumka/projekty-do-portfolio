@@ -1,0 +1,39 @@
+ ,Wymaganie w oparciu o specyfikację
+1,"Okno aplikacji powinno mieścić się w całości na ekranie monitora 
+o rozdzielczości 1024x768.
+"
+2,"Wymaganie środowiskowe
+System operacyjny: win7 i 8/8.1- dla części klienckiej
+                                win 7- dla części serwerowej"
+3,Aplikacja składa się z dwóch części: klienckiej i serwerowej
+4,"Stworzenie 3trybów pracy: tryb kapitana drużyny, tryb członka drużyny,tryb zawodnika"
+5,"""Wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB1"" pod koniec występuje nietypowa kombinacja znaków, która nie wskazuje na zajmowane miejsce dyskowe."
+6,"Po wciśnięciu przycisku ""Zakończ"" pojawia się komunikat potwierdzający"
+7,Część kliencka: Generator dziennika zdarzeń części klienckiej
+8,"Wszystkie komunikaty, informacje oraz nazwy klawiszy w interfejsie 
+graficznym muszą być w języku polskim."
+9,"login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą
+literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny"
+10,Zaimplementowanie minimum 15 zadań w aplikacji
+11,"W widoczny i czytelny sposób wyszczególnione elementy opisane w pkt 6.1 specyfikacji: pole ""czas"", pole ""nr zadania"", pole ""opis problemu"", pole ""lista zadań"", przyciski nawigacji, zakończenia akcji, "
+12,Okno aplikacji powinno dzielić się na dwie części - okno “Zadania” oraz “Menu boczne” ułożone po prawej stronie.
+13,"Zdefiniowanie poprawnej klasy równoważności poprzez przydzielenie odpowiedniego przedziału punktacji w tym przypadku od 5 do 6pkt dla punktacji defektu o statusie ""defekty krytyczne""."
+14,"W skład ""Menu bocznego"" wchodzi 8 pól: Pole “Czas”, Pole “Nr zadania”, Pole “Opis problemu”, Pole “Lista zadań”, Przyciski nawigacyjne - “Następne” i “Poprzednie”, Przycisk “Zaraportuj defekt”, Przycisk “Zakończ”, Okno “Zadania”."
+15,"Aplikacja jest przenośna, dostarczona w postaci archiwum zip. Nie jest instalowana na komputerze, tylko uruchamiana poprzez plik wykonawczy. "
+16,Przycisk “Zakończ” - zakończenie pracy nad wszystkimi zadaniami i wysłanie odpowiedzi do oceny. Nie da się cofnąć tej czynności.
+17,"aplikacja kliencka po uruchomieniu nie może zajmować więcej niż 100MB
+pamięci operacyjnej komputera"
+18,"hasło musi zawierać minimum 20 znaków, w tym co najmniej jedną małą i jedną wielką literę, jedną cyfrę, jeden znak specjalny. Hasło nie może zawierać białych znaków i polskich znaków dialektycznych. Hasło musi być przechowywane w zaszyfrowanym formacie. "
+19,konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła lub jego części
+20,"Dostęp do części serwerowej może być zrealizowany poprzez linię
+komend lub interfejs graficzny użytkownika części serwerowej."
+21,tokeny do konta mają być generowane losowo
+22,przełączanie pomiędzy zadaniami nie może być dłuższe niż 1 sekunda
+23,"Przycisk “Zaraportuj defekt” - pozwala na zaraportowanie defektu aktualnie
+wyświetlanego w oknie “Zadania”, kopia zapasowa, wysyłany jest
+raport defektu do części serwerowej aplikacji, Funkcja ta jest dostępna
+we wszystkich trybach pracy aplikacji."
+24,zablokowośc możliwość raportowania defektów w trybie członka drużyny
+25,Wersja demonstracyjna aplikacji klienckiej: W oknie zadania wyświetlony jest kalkulator z możliwością wykonania tylko jednego typu operacji - dzielenia.
+26,"Adekwatne wyświetlanie numeru zadania w polu ""nr zadania"""
+27,zablokować możliwość raportowania defektów w trybie członka drużyny
