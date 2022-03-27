@@ -1,0 +1,73 @@
+TCID,Tytuł,Warunki wstępne,ID Kroku,Opis kroku,Oczekiwany rezultat
+1,Komunikat zakończenia,,1,"Kliknij jeden raz w przycisk ""Zakończ""",Pojawia się komunikat. 
+2,Blokada zgłoszenia defektu w trybie członka drużyny,Użytkownik jest zalogowany w trybie członka drużyny,1,Użytkownik otwiera zadanie i znajduje defekt,
+,,,2,Użytkownik wybiera przycisk ‘Zgłoś defekt’,1. Przycik jest zablokowany i nie działa (po kliknięku wyświetla się komunikat- brak uprawnień)
+3,"Okno aplikacji powinno mieścić się w całości na ekranie monitora 
+o rozdzielczości 1024x768.","1.Uruchomiona aplikacja Mr Buggy 3 na systemie Windows 7 
+2. Zalogowany użytkownik 
+3. Zmienienie w ustawianiach komputera rozdzielczości ekranu na 1024x768.",1,Otwórz okno aplikacji Mr Buggy 3 ,
+,,,2,"Kliknij ""Uruchom bez logowania""",
+,,,3,W górnym prawym rogu kliknij w ikonkę rozszerzenia okna aplikacji.,"Okno aplikacji mieści się w całości na ekranie."
+4,Użycie pamięci komputera po uruchomieniu aplikacji,Aplikacja uruchomiona na systemie Windows 7/8,1,"W Menadżerze zadań w zakładce: ""Procesy"" znajdź nazwę aplikacji.",Nazwa aplikacji jest na liście 
+,,,2,"Przy wybranej nazwie aplikacji odczytaj liczbę z kolumny: ""Pamięć""","Liczba w kolumnie: ""Pamięć"" jest mniejsza od 100MB"
+5,"Widok ""Menu boczne""",Okno aplikacji powinno dzielić się na dwie części - okno “Zadania” oraz “Menu boczne” ułożone po prawej stronie.,1,"Sprawdzamy czy ""Menu boczne"" jest widoczne","""Menu boczne"" jest widoczne"
+,,,2,"Sprawdzenie zawartości ""Menu boczne""",Widać 8 pól/elementów
+,,,3,Sprawdzenie poprawności nazw każdego z 8 pól/elementów,"Pole “Czas”, Pole “Nr zadania”, Pole “Opis problemu”, Pole “Lista zadań”, Przyciski nawigacyjne - “Następne” i “Poprzednie”, Przycisk “Zaraportuj defekt”, Przycisk “Zakończ”, Okno “Zadania”."
+6,Losowanie tokena do konta,Mamy konto utworzone,1,Klikamy w przycisk wygeneruj token do konta,Token zostaje wygenerowany i podany w polu: Twój token
+7,Zakładanie nowego użytkownika przy użyciu poprawnego loginu i poprawnego hasła,Aplakacja uruchomiona na systemie Windows 8,1. ,"Wpisanie poprawnego, nieistniejącego w bazie loginu",
+,,"Posiadanie loginu, które spełnia podstawowe wymagania aplikacji",2.,"Podanie hasła spełniającego wszystkie wymagania aplikacji: min. 20 znaków, w tym: 1 mała litera, 1 duża litera, 1 znak specjalny",Poprawne założenie nowego użytkownika
+8,Zakładanie nowego użytkownika przy użyciu poprawnego loginu i niepoprawnego hasła,Aplakacja uruchomiona na systemie Windows 8,1. ,"Wpisanie poprawnego, nieistniejącego w bazie loginu",
+,,"Posiadanie loginu, które spełnia podstawowe wymagania aplikacji",2.,"Wpisanie hasła niespełniającego wszystkich wymagań aplikacji: mniej niż 20 znaków, ze spacją ",Brak możliwości założenia konta
+9,"Generator dziennika zdarzeń","System z wypakowanym plikiem .exe programu klienckiego",1,"Uruchomienie programu",uruchumienie jest zanotowane w pliku .log z zaznaczeniem czasu wykonania
+,,,2,"zalogowanie użytkownika","zalogowanie, oraz komunikacja z częścią serwerową aplikacji są zanotowane w pliku .log z zaznaczeniem czasu wykonania,"
+,,,3,"Klikniecie przycisku nawigacyjnego Następne",nawigowanie jest zanotowane w pliku .log z zaznaczeniem czasu wykonania
+,,,4,"Kliknięcie przycisku nawigacyjnego Poprzednie",nawigowanie jest zanotowane w pliku .log z zaznaczeniem czasu wykonania
+,,,5,"Kliknięcie Zaraportuj Defekt","zaraportowanie , lokalna kopia, oraz komuunikacja z częścią serwerową, są zanotowane w pliku .log z zaznaczeniem czasu wykonania"
+,,,6,Kliknięcie przycisku Zakończ,zakończenie jest zanotowane w pliku .log z zaznaczeniem czasu wykonania
+10,Logowanie do aplikacji,Aplikacja uruchomiona na systemie Windows 8,1,Wpisz prawidłowy login,Brak wyświetlonych błędów
+,,,2,"Kliknij przycisk ""Login""","Pojawi się pole ""Wpisz hasło"""
+11,Logowanie do aplikacji,Aplikacja uruchomiona na systemie Windows 8,1,Wpisz login zawierający mniej niż 4 znaki,
+,,,2,"Kliknij przycisk ""Login""",Wyświetli się komunikat „Błędny Login”
+12,Logowanie do aplikacji,Aplikacja uruchomiona na systemie Windows 8,1,Wpisz login zawierający więcej niż 8 znaków,
+,,,2,"Kliknij przycisk ""Login""",Wyświetli się komunikat „Błędny Login”
+13,Logowanie do aplikacji,Aplikacja uruchomiona na systemie Windows 8,1,Wpisz login niezawierający znaku specjalnego,
+,,,2,"Kliknij przycisk ""Login""",Wyświetli się komunikat „Błędny Login”
+14,Logowanie do aplikacji,Aplikacja uruchomiona na systemie Windows 8,1,Wpisz login niezawierający cyfry,
+,,,2,"Kliknij przycisk ""Login""",Wyświetli się komunikat „Błędny Login”
+15,Logowanie do aplikacji,Aplikacja uruchomiona na systemie Windows 8,1,Wpisz login niezawierający Wielkiej litery,
+,,,2,"Kliknij przycisk ""Login""",Wyświetli się komunikat „Błędny Login”
+16,Zaimplementowanie minimum 15 zadań,APlikacja uruchomiona na systemie Windows 8,1,Użytkownik widzi treść zadania,Jest 15 zadań czytelnych dla użytkownika
+,,Użytkownik zalogowany,2,Użytkownik może przejść do następnego zadania,Jedna strona to jedno zadanie
+,,"Wyświetla się w okenku ""Zadanie"" treść tekstowa zadania",3,,Uzytkownik może przechodzić do następnego/poprzedniego zadania
+17,Konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła lub jego części,Aplikacja uruchomiona w systemie Windows 7/ 8,1,Wpisz błędny login,Użytkownik nie został zalogowany
+,,,2,Wpisz błędne hasło,Użytkownik nie został zalogowany
+,,,3,Wykonaj krok 1 i 2 trzy razy,konto zostało zablokowane
+18,Funkcjonalność wysyłania raportów,Posiadanie danych logowania dla zwykłego użytkownika,1,Włącz aplikację MrBuggy,aplikacja otwiera się
+,,Posiadanie danych logowania dla osoby mającej oceniać raporty,2,Jako zwykły użytkownik z uprawnieniami do raportowania błędów sporządź raport od dowolnej treści,zostajesz zalogowany a następnie program przyjmuje tekst pisany
+,,,3,Wyślij swój rapot do serwera,raport zostaje wysłany do serwera
+,,,4,zaloguj sie jako sędzia do panelu serwera,zostajesz zalogowany na koncie sędziego
+,,,5,Sprawdź czy uwcześnie sporządzony raport jest dla ciebie widoczny,widzisz przesłany(e) raport(y)
+19,Okno aplikacji powinno dzielić się na dwie części - okno “Zadania” oraz “Menu boczne” ułożone po prawej stronie.,Aplikacja uruchomiona na systemie Windows 8,1,Wpisz prawidłowy login i prawidłowe hasło,Brak wyświetlonych błędów
+,,Poprawnie otwarta aplikacja MrBuggy3,2,"Kliknij przycisk ""Login""",Użytkownik został zalogowany do aplikacji
+,,,3,Sprawdź wyświetlanie się okien w menu,Okno aplikacji dzieli się na dwie części - pierwsze okno “Zadania” jest po lewej stronie i zajmuje 60% ekranu aplikacji oraz okno “Menu boczne” ułożone po prawej stronie i zajmuje 30% ekranu aplikacji
+20,"Aplikacja jest przenośna, dostarczona w postaci archiwum zip.","Komputer z dostępem do sieci internet, link do pobrania programu.",1,Otworzyć link do pobrania programu.,"Strona się otwiera, wyświetla się link do pobrania programu."
+,,,2,Pobrać program na komputer.,"Plik programu został pobrany, widzimy plik."
+,,,3,Sprawdzenie jaki typ pliku został ściągnięty,Pobrany plik to jest archiwum zip.
+21,"Aplikacja nie jest zainstalowana na komputerze, jest uruchamiana przez plik wykonawczy.",Pobrany plik z archiwum programu,1,Wypakować pliki programu z archiwum.,Pliki programu są widoczne w wybranym folderze
+,,,2,Uruchomić plik wykonawczy .exe,Aplikacja się uruchomiła
+,,,3,Sprawdzić czy aplikacja wymaga dodatkowej instalacji i się otworzyła.,"Aplikacja nie wymaga instalacji, okienko z aplikacją jest aktywne i gotowe do użytku."
+22,Czas przełączania się między zadaniami w polu „Lista zadań” nie dłuższy niż 1 sekunda,"1.	Aplikacja uruchomiona na systemie Windows 7 lub Windows 8/8.1
+2.	Zalogowany użytkownik",1,"1.        Uruchom aplikację MrBuggy 3
+",Czas przełączenia między zadaniami nie dłuższy niż 1 sekunda
+,,,2,2. Kliknij przycisk „Uruchom bez logowania” ,
+,,,3,3. Kliknij przycisk „1” odpowiadający zadaniu numer 1. ,
+,,,4,4. Kliknij przycisk „2” odpowiadający zadaniu numer 2.,
+23,"Poprawne wyświetlanie nr zadania w polu ""nr zadania""",Uruchomiona aplikacja MrBuggy3,1,Wybierz zadanie z listy zadań,"W polu ""nr zadania"" pojawia się cyfra zgodna z numerem wybranego zadania"
+24,Użycie przycisku „Zaraportuj defekt”, Zalogowanie w systemie,1,1. Wybierz zadanie 2.Znajdź defektu w zadaniu 3.Naciśnij przycisk „Zaraportuj defekt”,"Zostanie stworzona kopia zapasowa, Raport defektu zostanie wysłany do części serwerowej aplikacji"
+25,Zablokowanie możliwości raportowania defektów w trybie członka drużyny,użytkownik jest poprawnie zalogowany do aplikacji jako członek drużyny,1,użytkownik próbuje w polu „raport” wpisać znaleziony błąd,pole „raport” jest „wyszarzone” – nieaktywne / lub nie jest „wyszarzone” ale po naciśnięciu „enter” raport nie zostaje zatwierdzony
+26,Dzielenie w wersji demonstracyjnej,Aplikacja uruchomiona w wersji demonstracyjnej,1,1. Użytkownik wpisuję liczbę np. 9 i dzieli ją przez 0,Pojawia się liczba „0” – błąd (nie ma dzielenia przez 0).
+27,Sprawdzenie poprawności nazw obiektów,"Użykownik zalogowany jest do aplikacji MrBuggy3
+                 Użytkownik znajduje się na zakładce ""Zadania""",1,"Sprawdź, czy w lewym górnym rogu znajduje się opis bloku ""Zadania""","Poprawnie zapisane ""Zadania"" wyglądające, jak screen w załączeniu (sreen1)"
+,,,2,"Sprawdź, czy w prawym górnym rogu znajduje się  opis bloku ""Opis zadania""","Poprawnie zapisane ""Opis zadania"" wyglądające, jak screen w załączeniu (sreen2)"
+,,,3,"Sprawdź, czy po prawej znajduje się opis bloku ""Lista zadań""","Poprawnie zapisane ""Lista zadań"" wyglądające, jak screen w załączeniu (sreen3)"
+,,,4,"Sprawdź, czy przyciski posiadają nazwy ""Poprzednie"", ""Następne"", ""Znalazłem defekt"", ""Zakończ"", ""Status połączenia""","Poprawnie nazwane przyciski ""Poprzednie"", ""Następne"", ""Znalazłem defekt"", ""Zakończ"", ""Status połączenia"" wyglądające, jak screen w załączeniu (sreen4)"
