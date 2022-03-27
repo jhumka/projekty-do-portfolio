@@ -1,0 +1,43 @@
+ ,"Miejsce w specyfikacji, gdzie jest błąd",Co jest błędem,Jak powinno być
+1,11,"brak opisu dla przycisku ""Status połączenia""",
+2,str 11,"co oznacza zwrot ""estetyczne""",
+3,str 12,nieścisłość w wymaganiach dot. loginu,
+4,str 6,"Wymagane są cztery wersje aplikacji, Podane są tylko 3 wersje aplikacji",Ustalić ile jest wersji
+5,str 14,"Błędnie zdefiniowana klasa równoważności w ""defekty krytyczne"" ",od 5 do 6 pkt
+6,str 6,nieścisłość w nazwie aplikacji ,MrBuggy 3
+7,str 10,,
+8,str.10,brak wyszczególnienia koloru zadań bez odpowiedzi,wybór koloru z palety barw
+9,str.11,implementacja - część serwerowa w języku JAVA 7,
+10,str. 7,"Wersja demonstracyjna, końcowa oraz publiczna różnią się jedynie 
+ilością zadań. Nie ma powiedziane ile dokłdnie jest zadań.",ile dokładnie mają zadań
+11,str.10,brak zasad numeracji zadań,sprecyzowanie numeracji zadań
+12,str. 12,brak wskazania maksymalnej ilości znaków hasła,
+13,str 7,brak zaktualizowania listy dostępnych systemów operacyjnych takich jak np. Windows 10,"dodać systemy operacyjne dostępne po 2015 roku, z którymi mrBuggy jest kompatybilny"
+14,str 12,"W zdaniu ""Wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB1"" pod koniec występuje nietypowa kombinacja znaków, która nie wskazuje na zajmowane miejsce dyskowe.",Ustalić ile miejsca dyskowego ma zajmować wersja kliencka aplikacji.
+15,str 13,brak dokładnych wymagań o sposobie generowania i używania tokenu ,"Określenie w jaki sposób token będzie generowany i wysyłany, na jakich etapach logowania będzie używany."
+16,str 5 i 13,"Instalator aplikacji - program, który zainstaluje aplikację MrBuggy 3 w środowisku docelowym",Nie jest wymagany instalator aplikacji.
+17,str 8,jak podejść do sprawdzania niezawodności przez rok?,W każdym zadaniu
+18,str 8 i 11,Interfejs pokazuje mniej zadań(12) niż zakłądają wymagania (co najmniej 15),doprecyzować jak będzie można wyświetlać listę zadań
+19,str 20 ,"błąd logiczny w aplikacji co do przycisku ""ZAKOŃCZ"", brak sprecyzowoania jak ma wyglądać potwierdzenie chęci wykonania tej czynności","doprecyzować jak ma wyglądać przycisk potwierdzenia oraz że wszystkie dane dotyczące
+użytkownika oraz rozwiązanych przez niego zadań testowych eksportowane
+są do pliku binarnego po wciśnieciu przycisku potwierdzającego"
+20,str 12,niejednoznaczność co do wymagań bezpieczeństwa dla części klienckiej aplikacji,podział opisu wymagań bezpieczeństwa na cześć serwerową i część kliencką
+21,str 8/9,"Niejasne sformułowanie ""Aplikacja nie może utracić danych w przypadku niespodziewanego jej
+zamknięcia. Kopia zapasowa ma być tworzona po każdorazowym kliknięciu
+Specyfikacja aplikacji MrBuggy 3 w przycisk “Znalazłem defekt”. Ma przyjmować format pliku binarnego, który
+zostanie wczytany po ponownym otwarciu aplikacji."". Nie wiemy czy mamy sami zapisywać postępy, czy są raczej one zapisywane automatycznie.","Powinniśmy jasno określić czy aplikacja sama zapisuje postępy, czy mamy to robić ręcznie."
+22,str.11,"brak informacji dotyczących ikony - gdzie, jaka duża",
+23,str. 13,brak informacji nt. procedury zmiany hasla,
+24,str 8 i 10,Wybór trybu pracy dokonywany jest podczas logowania do aplikacji,Brak informacji o logowaniu w opisie interfejsu użytkownika: Część kliencka (powiązane ze zgłoszeniem numer 35)
+25,str. 11,Brak doprecyzowania jak ma być realizowany dostęp do cz. serwerowej,
+26,str 9 i 8,Kolejność zadań wyświetlanych w części klienckiej powinna być losowa.,
+27,str 14,"Defekty trywialne, normalne, krytyczne","Dodać krótki opis, definicję, lub komentarz że kryteria są określane na podstawie słownika ISQTB"
+28,str 9,"W zdaniu ""Kolejność zadań wyświetlanych w części klienckiej powinna być losowa."".",Powinno być jasno określone wymaganie aby zadania były losowo ustawione.
+29,str 8,Czy po przelogoanwiu można zmienić kategorię użytkownika,
+30,str. 3,"W wersji z dnia 5.02.2015 umieszczono""harmonogram"", podczas gdy nie jest dołączony do dokumentacji",powien być dołączony harmonogram
+31,str 3,W wersji z dnia 10.05.2015 isnieje informacja o GUI cz. serwerowej,doprecyzowanie jaki ma być dostęp do cz. serwerowej (GUI czy linia komend)
+32,"sr10, 11","Niespójność w nazwach w specyfikacji z nazwami w interfejscie ‘Opis problemu’, ‘Zaraportuj Defekt’",Ustalenie jednej nazwy
+33,"str 10,11",Brak sprecyzowania gdzie ma się wyświetlać punktacja oraz brak tej informacji w interfejsie,Sprecyzować gdzie ma się pojawić pole z punktacją i jak wyglądać
+34,"str 2,10 i 11",Opis interfejsu uzytkownika,W dokumentacji brakuje informacji o wyglądzie okna logowania (powiązane ze zgłoszeniem numer 25)
+35,12,średni czas odpowiedzi interfejsu ma być większa od 10000 - jaka jednostka,
+36,10,"Przyciski nawigacyjne - “Następne” i “Poprzednie” umożliwiają przeniesienie się do odpowiednio bieżącego, następnego i poprzedniego zadania. - o co chodzi z bieżącym?",
